@@ -1,4 +1,20 @@
-# two-way-ssl-authentication
+* [<strong>1\. Introduction</strong>](#1-introduction)
+  * [<strong>1\. 1 Certificate Authority</strong>](#1-1-certificate-authority)
+* [<strong>2\. You should do</strong>](#2-you-should-do)
+  * [<strong>2\.1 Create a Certificate Signed by a Certificate Authority</strong>](#21-create-a-certificate-signed-by-a-
+    certificate-authority)
+    * [<strong>Step 1 : Create a CSR and</strong> <strong>private key</strong>](#step-1--create-a-csr-and-private-key)
+    * [<strong>Step 2 : Submit the CSR to CA</strong>](#step-2--submit-the-csr-to-ca)
+    * [<strong>Step 3 : Get the Certificate from CA</strong>](#step-3--get-the-certificate-from-ca)
+    * [<strong>Step 4 : Exchange root certificate</strong>](#step-4--exchange-root-certificate)
+  * [<strong>2\.2 Authentication</strong>](#22-authentication)
+    * [<strong>Step1 : Keystore</strong>](#step1--keystore)
+    * [<strong>Step 2 : Import certificate to the Keystore</strong>](#step-2--import-certificate-to-the-keystore)
+    * [<strong>Step 3 : SSL configuration of Spring Boot</strong>](#step-3--ssl-configuration-of-spring-boot)
+    * [<strong>Step 4 : Truststore</strong>](#step-4--truststore)
+  * [<strong>2\.3 Authorization</strong>](#23-authorization)
+      * [<strong>Step 1 : Spring Security Configuration</strong>](#step-1--spring-security-configuration)
+* [<strong>3\. Architecture Overview</strong>](#3-architecture-overview)
 
 In this article, we'll focus on the main use cases for X.509 certificate authentication – verifying the identity of a communication peer when using the HTTPS (HTTP over SSL) protocol.
 
