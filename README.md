@@ -1,8 +1,7 @@
-* [<strong>1\. Introduction</strong>](#1-introduction)
+﻿* [<strong>1\. Introduction</strong>](#1-introduction)
   * [<strong>1\. 1 Certificate Authority</strong>](#1-1-certificate-authority)
 * [<strong>2\. You should do</strong>](#2-you-should-do)
-  * [<strong>2\.1 Create a Certificate Signed by a Certificate Authority</strong>](#21-create-a-certificate-signed-by-a-
-    certificate-authority)
+  * [<strong>2\.1 Create a Certificate Signed by a Certificate Authority</strong>](#21-create-a-certificate-signed-by-a-certificate-authority)
     * [<strong>Step 1 : Create a CSR and</strong> <strong>private key</strong>](#step-1--create-a-csr-and-private-key)
     * [<strong>Step 2 : Submit the CSR to CA</strong>](#step-2--submit-the-csr-to-ca)
     * [<strong>Step 3 : Get the Certificate from CA</strong>](#step-3--get-the-certificate-from-ca)
