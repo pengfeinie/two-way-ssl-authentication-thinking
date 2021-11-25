@@ -285,3 +285,5 @@ An overview of all possible authorization options can be found in the *[official
 
 [https://www.baeldung.com/x-509-authentication-in-spring-security#2-spring-boot-application](https://www.baeldung.com/x-509-authentication-in-spring-security#2-spring-boot-application)
 
+https://www.keyfactor.com/blog/what-is-ssl/
+https://www.tech-faq.com/x509.html
